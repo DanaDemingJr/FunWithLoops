@@ -162,6 +162,110 @@ namespace FunWithLoops
             //}
 
 
+            //int x = 1;
+            //while(x<=10)
+            //{
+            //    Console.WriteLine(x);
+            //    x++;
+            //}
+
+            //int lives = 3;
+            //int magicNumber = 24;
+            //bool isPlaying = true;
+            //while(lives > 0 && isPlaying == true)
+            //{
+            //    Console.WriteLine("Guess my lucky number");
+            //    int userGuess = int.Parse(Console.ReadLine());
+            //    if(magicNumber == userGuess)
+            //    {
+            //        Console.WriteLine("You guessed right!!");
+            //        isPlaying = false;
+            //        //break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Sorry Try Again");
+            //        lives--;
+            //        Console.WriteLine("You have " + lives + " left");
+            //    }
+            //}
+
+            //print the numbers 1 - 100
+            //if the number is a multiple of 3 print fizz, multiple of 5 print buzz, multiple of both fizzbuzz
+
+            //create an int array wiht 10 elements, find the mean of these elements and output the result
+
+            //int x = 1;
+            //while (x <= 100)
+            //{
+            //    if(x % 15 == 0)
+            //    {
+            //        Console.WriteLine("FizzBuzz");
+            //    }
+            //    else if(x % 3 == 0)
+            //    {
+            //        Console.WriteLine("Fizz");
+            //    }
+            //    else if(x % 5 == 0)
+            //    {
+            //        Console.WriteLine("Buzz");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(x);
+            //    }
+            //    x++;
+            //}
+
+            //int[] averages = { 75, 80, 90, 95, 87, 88, 81, 90, 100, 98 };
+            //int total = 0;
+            //foreach (int number in averages)
+            //{
+            //    total += number;
+            //}
+            //int mean = total / averages.Length;
+            //Console.WriteLine(mean);
+
+
+            //NESTED LOOPS
+            //for (int i = 1; i <= 2; i++)
+            //{
+            //    for(int j = 1; j <= 4; j++)
+            //    {
+            //        Console.Write(j); //columns
+            //    }
+            //    Console.WriteLine(); //two
+            //}
+
+            //print a triangle with nested loop
+            //int n = 4;
+            //for (int row = 1; row <= n; row++)
+            //{
+            //    for (int column = 1; column <= row; column++)
+            //    {
+            //        Console.Write(column +" ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //multiplication tables
+
+            int n = 6;
+            for(int row = 1; row <= n; row++)
+            {
+                for (int column = 1; column <= row; column++)
+                {
+                    Console.Write(column + "X1");
+                }
+                Console.WriteLine();
+            }
+
+
+
+
+
+
+
 
         }
     }
