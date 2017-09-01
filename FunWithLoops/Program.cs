@@ -250,19 +250,80 @@ namespace FunWithLoops
 
             //multiplication tables
 
-            int n = 6;
-            for(int row = 1; row <= n; row++)
-            {
-                for (int column = 1; column <= row; column++)
-                {
-                    Console.Write(column + "X1");
-                }
-                Console.WriteLine();
-            }
+
+            //for (int row = 1; row <= 5; row++)
+            //{
+            //    for (int column = 1; column <= 5; column++)
+            //    {
+            //        Console.Write("{0} X {1} ", row, column);
+            //    }
+            //    Console.WriteLine();
+
+            //}
+            //Console.WriteLine();
+
+            //string[] favoriteMovies = { "Superbad", "Wolf of Wallstreet", "Entourage" };
+            //string[] vowelArray = { "E" };
+            //foreach(string movie in favoriteMovies)
+            //{
+            //    foreach (string vowel in favoriteMovies)
+            //    {
+            //        if (vowel.StartsWith("E"))
+            //            Console.WriteLine(movie);
+            //    }
+
+
+            //}
+
+            //ask the user for a number
+            //see if the number is divisible by 3
+            //if the number is not a multiple of 3, tell the user "you lost" and ask for a new number
+            //until the user wins
+            //once outside the loop print you win
+
+            //Console.WriteLine("Please enter a winning number");
+            //int userNumber = int.Parse(Console.ReadLine());
+            //while(userNumber % 3 !=0)
+            //{
+            //    Console.WriteLine("You lose, try again");
+            //    userNumber = int.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("Winner, winner, chicken dinner");
+
+            //ask the user for 2 numbers. n & m
+            //see if m is larger than n, if not enter new numbers
+            //between n & m find all numbers divisible by 3
+
+            //Console.WriteLine("Please enter a number");
+            //int userNumberN = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter a second number");
+            //int userNumberM = int.Parse(Console.ReadLine());
+            //while(userNumberN >= userNumberM)
+            //{
+            //    Console.WriteLine("Please enter a new number");
+            //    userNumberN = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Please enter a second number that is larger than the first");
+            //    userNumberM = int.Parse(Console.ReadLine());
+            //}
+            
+            //for (int i = userNumberN; i < userNumberM; i++)
+            //{
+            //   if (i % 3 == 0)
+            //        Console.WriteLine(i); 
+            //}
+                
+            
 
 
 
 
+                
+
+
+            
+
+
+             
 
 
 
